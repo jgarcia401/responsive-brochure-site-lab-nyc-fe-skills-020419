@@ -1,0 +1,88 @@
+body {
+  background-color: #dcdcdc;
+  
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.header {
+width: 100%;
+text-align: center;
+margin-right: 48px;
+  
+  
+}
+
+.logo {
+  grid-area: logo;
+  
+}
+
+
+.navbar {
+  background-color: #dcdcdc;
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-around;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+ 
+}
+
+
+
+.pics {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  
+}
+
+.sub {
+  width: 50%;
+  height: 50%;
+}
+
+.blurb {
+  background: white;
+}
+
+.bottom {
+ background: white;
+  display: flex;
+  flex-direction: rows;
+  justify-content: flex-end;
+  margin-left: 75%;
+}
+
+.end {
+  margin-right: 28px;
+}
+
+
+
+
+
+
+/*.NMD {*/
+/*  grid-area: NMD*/
+/*}*/
+
+/*.airmax {*/
+/*  grid-area: airmax*/
+/*}*/
+
+/*.ADER {*/
+/*  grid-area: ADER*/
+/*}*/
+
+/*.NMD2 {*/
+/*  grid-area: NMD2*/
+/*} */
+
